@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IS:wght@100..400&display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #669bbc;
+}
+
+.Top{
+    background-color:#003049;
+    color:#669bbc;
+    font-family: "Montserrat", sans-serif;  
+}
+
+
+.Top{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#time, #day{
+    display: flex;
+    justify-content: center;
+    /* padding: 2.0em,1.0em; */
+    color:#003049;
+    background-color: #669bbc;
+}
+#time, #day{
+    font-weight: 600;
+}
+
+#time:hover, #day:hover{
+    transform:scale(1.1);
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+h1{
+    font-family: "Merienda", cursive;
+    cursor: pointer;
+}
+span{
+    color: #669bbc;
+}
+h1{
+    padding: 0.2em, 0.5em;
+    border-radius: 5px;
+    color:#669bbc;
+    }
+section {
+    margin: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+#goals{
+    background-color:#003049;
+    padding: 0.2em 1.0em;
+    border-radius: 5px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #003049;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: white;
+}
+
+.sub-title{
+    background-color:#669bbc;
+    color: #003049;
+}
+.sub-title{
+    display: flex;
+    justify-content: center;
+    padding: 0.7em 0;
+    border-radius:5px;
+}
+.sub-title{
+   
+    font-weight:600;
+}
+
+li{
+    color:white;
+}
+li{
+    list-style-type:square;
+}
+li{
+    line-height:35px;
+}
+
+ #links ul{
+    list-style-type: none;
+    padding: 0;
+ }
+span{
+    padding: 1em;
+    border-radius: 5px;
+}
+ #links li{
+    margin: 0.5em 0;
+    list-style-type: none;
+ }
+ #links a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #003049;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+ }
+
+ #links a:hover{
+    background-color: #ffba08;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.2);
+
+ }
+.email{
+    display: flex;
+    justify-content: center;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    body {
+        font-size: 1em;
+    }
+}
